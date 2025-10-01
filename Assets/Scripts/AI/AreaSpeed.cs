@@ -1,40 +1,39 @@
+using Unity.AI.Navigation;
 using UnityEngine;
 using UnityEngine.AI;
 
 public class AreaSpeed : MonoBehaviour
 {
-    private NavMeshAgent agent;
+    NavMeshAgent agent;
+    NavMeshModifierVolume volume;
+    float baseSpeed;
 
-    public float defaultSpeed = 3.5f;
-    public float TreadmillSpeed = 5.25f;
-
-    void Start()
+    void Awake()
     {
-        agent = GetComponent<NavMeshAgent>();
+        volume = GetComponent<NavMeshModifierVolume>();
     }
 
-    void Update()
+    void OnTriggerEnter(Collider other)
     {
-        UpdateAgentSpeedBasedOnArea();
-    }
-
-    void UpdateAgentSpeedBasedOnArea()
-    {
-        //El profesor ha dicho en clase que no uemos Mask...
-        NavMeshHit hit;
-
-        if (NavMesh.SamplePosition(agent.transform.position, out hit, 1.0f, NavMesh.AllAreas))
+        if (other.CompareTag("Agent")) 
         {
-            int areaMask = hit.mask;
-
-
-            if (areaMask == (1 << NavMesh.GetAreaFromName("Treadmill")))
+            agent = other.GetComponent<NavMeshAgent>();
+            if (agent != null && volume != null)
             {
-                agent.speed = TreadmillSpeed;
+                baseSpeed = agent.speed; 
+                agent.speed /= 0.5f; 
             }
-            else
+        }
+    }
+
+    void OnTriggerExit(Collider other)
+    {
+        if (other.CompareTag("Agent"))
+        {
+            if (agent != null && volume != null)
             {
-                agent.speed = defaultSpeed;
+                agent.speed = baseSpeed; 
+                agent = null; 
             }
         }
     }
