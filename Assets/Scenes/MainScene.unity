@@ -388,6 +388,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 4571282658953569827, guid: 03d9638023ece7e4abe805d7f0189d2f, type: 3}
       insertIndex: -1
       addedObject: {fileID: 66032467}
+    - targetCorrespondingSourceObject: {fileID: 4571282658953569827, guid: 03d9638023ece7e4abe805d7f0189d2f, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 66032468}
   m_SourcePrefab: {fileID: 100100000, guid: 03d9638023ece7e4abe805d7f0189d2f, type: 3}
 --- !u!4 &66032458 stripped
 Transform:
@@ -457,6 +460,34 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   agent: {fileID: 66032460}
+--- !u!114 &66032468
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 66032459}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f0038c16c34866b4f9e25c9c0dc0f7e6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Graph: {fileID: -1274880261334584945, guid: 210de1db5230e2b4391be51888ff9e99, type: 2}
+  m_BlackboardVariableOverridesList:
+  - rid: 109000600710807581
+  m_IsInitialised: 0
+  m_IsStarted: 0
+  references:
+    version: 2
+    RefIds:
+    - rid: 109000600710807581
+      type: {class: 'BlackboardVariable`1[[UnityEngine.GameObject, UnityEngine.CoreModule]]', ns: Unity.Behavior, asm: Unity.Behavior}
+      data:
+        GUID:
+          m_Value0: 1
+          m_Value1: 0
+        Name: Self
+        m_Value: {fileID: 66032459}
 --- !u!1001 &81430119
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1650,6 +1681,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ball_green_003
       objectReference: {fileID: 0}
+    - target: {fileID: 9168569092563447834, guid: 15f5822c5800dc54b859ff6e49ea4ca8, type: 3}
+      propertyPath: m_TagString
+      value: Egg
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2072,6 +2107,10 @@ PrefabInstance:
     - target: {fileID: 9168569092563447834, guid: 15f5822c5800dc54b859ff6e49ea4ca8, type: 3}
       propertyPath: m_Name
       value: Ball_green_004
+      objectReference: {fileID: 0}
+    - target: {fileID: 9168569092563447834, guid: 15f5822c5800dc54b859ff6e49ea4ca8, type: 3}
+      propertyPath: m_TagString
+      value: Egg
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2685,6 +2724,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ball_green_009
       objectReference: {fileID: 0}
+    - target: {fileID: 9168569092563447834, guid: 15f5822c5800dc54b859ff6e49ea4ca8, type: 3}
+      propertyPath: m_TagString
+      value: Egg
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2775,6 +2818,10 @@ PrefabInstance:
     - target: {fileID: 9168569092563447834, guid: 15f5822c5800dc54b859ff6e49ea4ca8, type: 3}
       propertyPath: m_Name
       value: Ball_green_002
+      objectReference: {fileID: 0}
+    - target: {fileID: 9168569092563447834, guid: 15f5822c5800dc54b859ff6e49ea4ca8, type: 3}
+      propertyPath: m_TagString
+      value: Egg
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3128,6 +3175,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ball_green_000
       objectReference: {fileID: 0}
+    - target: {fileID: 9168569092563447834, guid: 15f5822c5800dc54b859ff6e49ea4ca8, type: 3}
+      propertyPath: m_TagString
+      value: Egg
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3187,6 +3238,10 @@ PrefabInstance:
     - target: {fileID: 9168569092563447834, guid: 15f5822c5800dc54b859ff6e49ea4ca8, type: 3}
       propertyPath: m_Name
       value: Ball_green_007
+      objectReference: {fileID: 0}
+    - target: {fileID: 9168569092563447834, guid: 15f5822c5800dc54b859ff6e49ea4ca8, type: 3}
+      propertyPath: m_TagString
+      value: Egg
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3335,6 +3390,10 @@ PrefabInstance:
     - target: {fileID: 9168569092563447834, guid: 15f5822c5800dc54b859ff6e49ea4ca8, type: 3}
       propertyPath: m_Name
       value: Ball_green_008
+      objectReference: {fileID: 0}
+    - target: {fileID: 9168569092563447834, guid: 15f5822c5800dc54b859ff6e49ea4ca8, type: 3}
+      propertyPath: m_TagString
+      value: Egg
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3805,6 +3864,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ball_green_001
       objectReference: {fileID: 0}
+    - target: {fileID: 9168569092563447834, guid: 15f5822c5800dc54b859ff6e49ea4ca8, type: 3}
+      propertyPath: m_TagString
+      value: Egg
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4103,6 +4166,10 @@ PrefabInstance:
     - target: {fileID: 9168569092563447834, guid: 15f5822c5800dc54b859ff6e49ea4ca8, type: 3}
       propertyPath: m_Name
       value: Ball_green_006
+      objectReference: {fileID: 0}
+    - target: {fileID: 9168569092563447834, guid: 15f5822c5800dc54b859ff6e49ea4ca8, type: 3}
+      propertyPath: m_TagString
+      value: Egg
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -4416,6 +4483,10 @@ PrefabInstance:
     - target: {fileID: 9168569092563447834, guid: 15f5822c5800dc54b859ff6e49ea4ca8, type: 3}
       propertyPath: m_Name
       value: Ball_green_005
+      objectReference: {fileID: 0}
+    - target: {fileID: 9168569092563447834, guid: 15f5822c5800dc54b859ff6e49ea4ca8, type: 3}
+      propertyPath: m_TagString
+      value: Egg
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
