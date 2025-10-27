@@ -1,13 +1,14 @@
 using System;
 using Unity.Behavior;
 using UnityEngine;
-using Modifier = Unity.Behavior.Modifier;
+using Action = Unity.Behavior.Action;
 using Unity.Properties;
 
 [Serializable, GeneratePropertyBag]
-[NodeDescription(name: "Options", story: "Switch", category: "Flow/Abort", id: "9c1efd0742b3a01f19222162087d7242")]
-public partial class OptionsModifier : Modifier
+[NodeDescription(name: "Get Rottated", story: "[Agent] Rotates", category: "Action", id: "33f7b778d6f750cc6e8571a98888c1e8")]
+public partial class GetRottatedAction : Action
 {
+    [SerializeReference] public BlackboardVariable<GameObject> Agent;
 
     protected override Status OnStart()
     {
@@ -17,7 +18,6 @@ public partial class OptionsModifier : Modifier
     protected override Status OnUpdate()
     {
         return Status.Success;
-       
     }
 
     protected override void OnEnd()

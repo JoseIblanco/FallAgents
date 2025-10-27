@@ -235,7 +235,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9202299716500448724, guid: c270381035f9f5744b412b578d25b551, type: 3}
       propertyPath: m_TagString
-      value: Agent
+      value: Azule
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -373,7 +373,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4571282658953569827, guid: 03d9638023ece7e4abe805d7f0189d2f, type: 3}
       propertyPath: m_TagString
-      value: Agent
+      value: Amarillo
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -388,9 +388,6 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 4571282658953569827, guid: 03d9638023ece7e4abe805d7f0189d2f, type: 3}
       insertIndex: -1
       addedObject: {fileID: 66032467}
-    - targetCorrespondingSourceObject: {fileID: 4571282658953569827, guid: 03d9638023ece7e4abe805d7f0189d2f, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 66032468}
   m_SourcePrefab: {fileID: 100100000, guid: 03d9638023ece7e4abe805d7f0189d2f, type: 3}
 --- !u!4 &66032458 stripped
 Transform:
@@ -460,34 +457,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   agent: {fileID: 66032460}
---- !u!114 &66032468
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 66032459}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f0038c16c34866b4f9e25c9c0dc0f7e6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Graph: {fileID: -1274880261334584945, guid: 210de1db5230e2b4391be51888ff9e99, type: 2}
-  m_BlackboardVariableOverridesList:
-  - rid: 109000600710807581
-  m_IsInitialised: 0
-  m_IsStarted: 0
-  references:
-    version: 2
-    RefIds:
-    - rid: 109000600710807581
-      type: {class: 'BlackboardVariable`1[[UnityEngine.GameObject, UnityEngine.CoreModule]]', ns: Unity.Behavior, asm: Unity.Behavior}
-      data:
-        GUID:
-          m_Value0: 1
-          m_Value1: 0
-        Name: Self
-        m_Value: {fileID: 66032459}
 --- !u!1001 &81430119
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -542,7 +511,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8636671622153513339, guid: a2742974dc938534b877c8f7e4ed5e86, type: 3}
       propertyPath: m_TagString
-      value: Agent
+      value: Rojos
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -782,7 +751,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4571282658953569827, guid: 03d9638023ece7e4abe805d7f0189d2f, type: 3}
       propertyPath: m_TagString
-      value: Agent
+      value: Amarillo
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1013,7 +982,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8636671622153513339, guid: a2742974dc938534b877c8f7e4ed5e86, type: 3}
       propertyPath: m_TagString
-      value: Agent
+      value: Rojos
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1208,7 +1177,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9202299716500448724, guid: c270381035f9f5744b412b578d25b551, type: 3}
       propertyPath: m_TagString
-      value: Agent
+      value: Azule
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1972,7 +1941,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8636671622153513339, guid: a2742974dc938534b877c8f7e4ed5e86, type: 3}
       propertyPath: m_TagString
-      value: Agent
+      value: Rojos
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2295,7 +2264,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8636671622153513339, guid: a2742974dc938534b877c8f7e4ed5e86, type: 3}
       propertyPath: m_TagString
-      value: Agent
+      value: Rojos
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2433,7 +2402,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4571282658953569827, guid: 03d9638023ece7e4abe805d7f0189d2f, type: 3}
       propertyPath: m_TagString
-      value: Agent
+      value: Amarillo
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2885,7 +2854,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4571282658953569827, guid: 03d9638023ece7e4abe805d7f0189d2f, type: 3}
       propertyPath: m_TagString
-      value: Agent
+      value: Amarillo
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2900,9 +2869,6 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 4571282658953569827, guid: 03d9638023ece7e4abe805d7f0189d2f, type: 3}
       insertIndex: -1
       addedObject: {fileID: 561391871}
-    - targetCorrespondingSourceObject: {fileID: 4571282658953569827, guid: 03d9638023ece7e4abe805d7f0189d2f, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 561391872}
   m_SourcePrefab: {fileID: 100100000, guid: 03d9638023ece7e4abe805d7f0189d2f, type: 3}
 --- !u!4 &561391862 stripped
 Transform:
@@ -2972,19 +2938,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   agent: {fileID: 561391864}
---- !u!114 &561391872
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 561391863}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 581860d794c030c4898b8c6c2e5948eb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  agent: {fileID: 0}
 --- !u!1001 &565289789
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3039,7 +2992,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8636671622153513339, guid: a2742974dc938534b877c8f7e4ed5e86, type: 3}
       propertyPath: m_TagString
-      value: Agent
+      value: Rojos
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3457,7 +3410,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4571282658953569827, guid: 03d9638023ece7e4abe805d7f0189d2f, type: 3}
       propertyPath: m_TagString
-      value: Agent
+      value: Amarillo
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -4307,7 +4260,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8636671622153513339, guid: a2742974dc938534b877c8f7e4ed5e86, type: 3}
       propertyPath: m_TagString
-      value: Agent
+      value: Rojos
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -4550,7 +4503,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8636671622153513339, guid: a2742974dc938534b877c8f7e4ed5e86, type: 3}
       propertyPath: m_TagString
-      value: Agent
+      value: Rojos
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -4688,7 +4641,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8636671622153513339, guid: a2742974dc938534b877c8f7e4ed5e86, type: 3}
       propertyPath: m_TagString
-      value: Agent
+      value: Rojos
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -4858,7 +4811,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9202299716500448724, guid: c270381035f9f5744b412b578d25b551, type: 3}
       propertyPath: m_TagString
-      value: Agent
+      value: Azule
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -5170,7 +5123,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9202299716500448724, guid: c270381035f9f5744b412b578d25b551, type: 3}
       propertyPath: m_TagString
-      value: Agent
+      value: Azule
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -5313,7 +5266,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4571282658953569827, guid: 03d9638023ece7e4abe805d7f0189d2f, type: 3}
       propertyPath: m_TagString
-      value: Agent
+      value: Amarillo
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -5492,7 +5445,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4571282658953569827, guid: 03d9638023ece7e4abe805d7f0189d2f, type: 3}
       propertyPath: m_TagString
-      value: Agent
+      value: Amarillo
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -5630,7 +5583,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4571282658953569827, guid: 03d9638023ece7e4abe805d7f0189d2f, type: 3}
       propertyPath: m_TagString
-      value: Agent
+      value: Amarillo
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -5768,7 +5721,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9202299716500448724, guid: c270381035f9f5744b412b578d25b551, type: 3}
       propertyPath: m_TagString
-      value: Agent
+      value: Azule
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -5963,7 +5916,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4571282658953569827, guid: 03d9638023ece7e4abe805d7f0189d2f, type: 3}
       propertyPath: m_TagString
-      value: Agent
+      value: Amarillo
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -6038,7 +5991,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8636671622153513339, guid: a2742974dc938534b877c8f7e4ed5e86, type: 3}
       propertyPath: m_TagString
-      value: Agent
+      value: Rojos
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -6207,7 +6160,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9202299716500448724, guid: c270381035f9f5744b412b578d25b551, type: 3}
       propertyPath: m_TagString
-      value: Agent
+      value: Azule
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -6798,7 +6751,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9202299716500448724, guid: c270381035f9f5744b412b578d25b551, type: 3}
       propertyPath: m_TagString
-      value: Agent
+      value: Azule
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -6936,7 +6889,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9202299716500448724, guid: c270381035f9f5744b412b578d25b551, type: 3}
       propertyPath: m_TagString
-      value: Agent
+      value: Azule
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -7331,7 +7284,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4571282658953569827, guid: 03d9638023ece7e4abe805d7f0189d2f, type: 3}
       propertyPath: m_TagString
-      value: Agent
+      value: Amarillo
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -7683,7 +7636,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9202299716500448724, guid: c270381035f9f5744b412b578d25b551, type: 3}
       propertyPath: m_TagString
-      value: Agent
+      value: Azule
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -7821,7 +7774,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9202299716500448724, guid: c270381035f9f5744b412b578d25b551, type: 3}
       propertyPath: m_TagString
-      value: Agent
+      value: Azule
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -8274,7 +8227,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8636671622153513339, guid: a2742974dc938534b877c8f7e4ed5e86, type: 3}
       propertyPath: m_TagString
-      value: Agent
+      value: Rojos
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

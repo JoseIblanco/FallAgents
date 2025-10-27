@@ -8,6 +8,9 @@ TagManager:
   - Threadmill
   - WayPoint
   - Egg
+  - Rojos
+  - Amarillo
+  - Azule
   layers:
   - Default
   - TransparentFX

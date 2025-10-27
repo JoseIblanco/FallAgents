@@ -1,13 +1,15 @@
 using System;
 using Unity.Behavior;
 using UnityEngine;
-using Modifier = Unity.Behavior.Modifier;
+using Action = Unity.Behavior.Action;
 using Unity.Properties;
 
 [Serializable, GeneratePropertyBag]
-[NodeDescription(name: "Options", story: "Switch", category: "Flow/Abort", id: "9c1efd0742b3a01f19222162087d7242")]
-public partial class OptionsModifier : Modifier
+[NodeDescription(name: "Soltar", story: "[Agent] Drops [Egg]", category: "Action", id: "5d22ef9b93da753e47acd21e146d904b")]
+public partial class SoltarAction : Action
 {
+    [SerializeReference] public BlackboardVariable<GameObject> Agent;
+    [SerializeReference] public BlackboardVariable<string> Egg;
 
     protected override Status OnStart()
     {
@@ -17,7 +19,6 @@ public partial class OptionsModifier : Modifier
     protected override Status OnUpdate()
     {
         return Status.Success;
-       
     }
 
     protected override void OnEnd()
